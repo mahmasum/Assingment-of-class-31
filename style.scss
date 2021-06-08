@@ -1,0 +1,84 @@
+body{
+    font-family: sans-serif;
+}
+.baner-section{
+    background-color: #f9f9ff;
+    .banr-text{
+        margin-top:130px;
+    }
+}
+
+.price-section{
+    .pr{
+        background-color: #dee3f1;
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        line-height: 120px;
+        text-align: center;
+        display: inline-block;
+    }
+    .price-item{
+        box-shadow: 5px 5px 30px 1px rgba(0, 0, 0,.1);
+        padding-bottom: 60px;
+    }
+    .btn-buy{
+        text-decoration: none;
+        padding: 15px 30px;
+        color: blue;
+        border: 2px solid blue;
+        font-size: 20px;
+        display: inline-block;
+        margin-top: 50px;
+        border-radius:5px;
+    }
+}
+.team-section {
+    margin-top: 150px;
+    .team{
+        width: 24%;
+        box-shadow: 5px 5px 30px 1px rgba(0, 0, 0,.2);
+        position: relative;
+        margin-right: 10px;
+        .team-img{
+            width: 100px;
+            position: absolute;
+            top: -28%;
+            left: 6%;
+        }
+        .btn-team{
+            text-decoration: none;
+            box-shadow: 5px 5px 30px 1px rgba(0, 0, 0,.3);
+            display: inline-block;
+            color: black;
+            padding: 10px 15px;
+            font-size: 17px;
+            border-radius: 10px;
+            font-weight: 600;
+        }
+    }
+}
+
+.form-section{
+    background-color: #f9f9ff;
+    .form-b{
+        box-shadow: 5px 5px 30px 1px rgba(27, 15, 196, 0.1);
+        .m-form{
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    }
+    .adres{
+        padding-left: 60px;
+        margin-top: 80px;
+        h1{
+            margin-bottom: 20px;
+        }
+        p{
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+    }
+}
+
+
